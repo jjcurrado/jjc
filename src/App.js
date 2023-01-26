@@ -1,9 +1,10 @@
 import './App.css';
+import Block from './Block';
 
 function App() {
   return (
-    <div className="App">
-        <button className='closed-paren'>&#123;...&#125;</button>
+    <div className='App' >
+      <Block></Block>
     </div>
   );
 }
