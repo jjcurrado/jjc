@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  margin: 0;
+  background-color: #1E1E1E;
+  box-sizing: border-box;
+}
+
+
+.closed-paren{
+  font-size: 50vw;
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+}
