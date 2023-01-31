@@ -1,7 +1,17 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
 .App {
   text-align: center;
   margin: 0;
+  padding: 0;
   background-color: #1E1E1E;
   box-sizing: border-box;
+  min-height: 100vh;
 }
+
 
