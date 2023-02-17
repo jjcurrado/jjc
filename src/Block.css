@@ -1,27 +1,41 @@
 .collapsed-block{
   padding: 0;
   margin: 0;
-  font-size: 80vh;
+  font-size: 40px;
   color: white;
   background-color: transparent;
   border-color: transparent;
 }
 
+.collapsed-block.fullscreen{
+  font-size: 80vh;
+  justify-self: center;
+}
 .obj-key{
   color: #9CB9A7;
+  vertical-align: top;
 }
 
 .obj-val{
   color: #C3916A;
+  vertical-align: top;
 }
 
 .key-val{
+  margin-left: 40px;
   width: 100%;
 }
 
 .block-body{
   color: white;
   display: flex;
+  text-align: left;
   align-content: left;
   font-size: 30pt;
+  display: inline-block;
+  background-color: inherit;
+}
+.block-body.bracket{
+  border: none;
+  outline: none;
 }
