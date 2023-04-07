@@ -9,33 +9,48 @@
 
 .collapsed-block.fullscreen{
   font-size: 80vh;
-  justify-self: center;
 }
 .obj-key{
   color: #9CB9A7;
   vertical-align: top;
+  background-color: aqua;
+  outline: solid 2px black;
 }
 
 .obj-val{
+  display: inline;
   color: #C3916A;
   vertical-align: top;
+  background-color: red;
+  outline: solid 2px yellow;
+
 }
 
 .key-val{
   margin-left: 40px;
-  width: 100%;
+  max-width: 100%;
+  background-color: lightgreen;
+  outline: solid 2px black;
 }
 
+.fade-wrapper{
+  display:inline;
+}
 .block-body{
   color: white;
-  display: flex;
   text-align: left;
   align-content: left;
   font-size: 30pt;
-  display: inline-block;
-  background-color: inherit;
+  background-color: orange;
+  outline: solid 2px black;
 }
 .block-body.bracket{
   border: none;
   outline: none;
+  background-color: grey;
+}
+.block-body.bracket.array{
+  display:inline;
+  background-color: yellowgreen;
+  outline: solid 2px black;
 }
