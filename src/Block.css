@@ -1,8 +1,8 @@
 .collapsed-block{
   padding: 0;
+  color: white;
   margin: 0;
   font-size: 40px;
-  color: white;
   background-color: transparent;
   border-color: transparent;
 }
@@ -13,24 +13,18 @@
 .obj-key{
   color: #9CB9A7;
   vertical-align: top;
-  background-color: aqua;
-  outline: solid 2px black;
 }
 
 .obj-val{
   display: inline;
   color: #C3916A;
   vertical-align: top;
-  background-color: red;
-  outline: solid 2px yellow;
 
 }
 
 .key-val{
   margin-left: 40px;
   max-width: 100%;
-  background-color: lightgreen;
-  outline: solid 2px black;
 }
 
 .fade-wrapper{
@@ -38,19 +32,17 @@
 }
 .block-body{
   color: white;
+  display: inline;
+  max-width: 95%;
   text-align: left;
   align-content: left;
-  font-size: 30pt;
-  background-color: orange;
-  outline: solid 2px black;
+  font-size: 25pt;
 }
 .block-body.bracket{
   border: none;
   outline: none;
-  background-color: grey;
+  background-color: transparent;
 }
 .block-body.bracket.array{
   display:inline;
-  background-color: yellowgreen;
-  outline: solid 2px black;
 }

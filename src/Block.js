@@ -4,7 +4,8 @@ import FadeIn from 'react-fade-in';
 
 
 function Block(props) {
-    const [isCollapsed, setCollapsed] = useState(true);
+
+    const [isCollapsed, setCollapsed] = useState(true); 
     var open = '{';
     var close = '}';
     var blockBracketClass = 'block-body bracket'; 
@@ -70,7 +71,7 @@ function Block(props) {
                 <FadeIn delay={delay} wrapperTag='span' childTag='span' className='fade-wrapper'>
                     {body}
                 </FadeIn>
-                <button className={blockBracketClass}>{close}</button>
+            <button className={blockBracketClass} onClick={handleExpand}>{close}</button>
         </div>
     );
 }
