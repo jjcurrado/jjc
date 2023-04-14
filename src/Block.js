@@ -36,7 +36,7 @@ function Block(props) {
 
     if (props.type === "array") {
         body = props.content.slice(0, props.content.length - 1).map((entry) => (
-            <span className='obj-val'>{entry},</span>
+            <span className='obj-val'>{entry}, </span>
         ))
         // last object has no trailing comma (find a prettier way to do this?)
         var len = props.content.length;
